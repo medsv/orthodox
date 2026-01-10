@@ -1,7 +1,7 @@
 import streamlit as st
 
 def show_footer():
-    st.markdown(
+    st.html(
         """
         <hr>
         <p style="text-align: left; color: gray;">
@@ -9,6 +9,5 @@ def show_footer():
         2026, С.В. Медведев, engpython@yandex.ru
         </small>
         </p>
-        """,
-        unsafe_allow_html=True
+        """
     )
