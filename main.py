@@ -1,6 +1,6 @@
 import streamlit as st
 from footer import show_footer
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 
 #load_dotenv()  # загружает переменные из .env
