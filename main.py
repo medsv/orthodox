@@ -56,7 +56,8 @@ if "assistant" not in st.session_state:
     st.session_state.assistant = Assistant(instructions=instructions, model=model, client=client)
 
 st.set_page_config(
-    page_title="Чат-бот о русском православии"
+    page_icon = "☦️"
+    page_title = "Чат-бот о русском православии"
 )
 
 #with st.sidebar:
