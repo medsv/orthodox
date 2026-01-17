@@ -14,6 +14,7 @@ class Assistant:
         res = self.client.responses.create(
             model = self.model,
             reasoning = { "effort" : "low" },
+#            temperature = 0.2,
             store = True,
             previous_response_id = previous_response_id,
             instructions = self.instructions,
